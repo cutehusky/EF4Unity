@@ -1,0 +1,27 @@
+﻿<linker>
+    <assembly fullname="Microsoft.EntityFrameworkCore">
+        <type fullname="Microsoft.EntityFrameworkCore.Internal.*" preserve="all"/>
+        <type fullname="Microsoft.EntityFrameworkCore.Metadata.*" preserve="all"/>
+        <type fullname="Microsoft.EntityFrameworkCore.*" preserve="all"/>
+        <type fullname="Microsoft.EntityFrameworkCore.Diagnostics.Internal.*" preserve="all"/>
+    </assembly>
+    <assembly fullname="Microsoft.EntityFrameworkCore.Sqlite">
+        <type fullname="Microsoft.EntityFrameworkCore.*" preserve="all"/>
+        <type fullname="Microsoft.EntityFrameworkCore.Sqlite.*" preserve="all"/>
+    </assembly>
+    <assembly fullname="Microsoft.EntityFrameworkCore.Abstractions">
+        <type fullname="Microsoft.EntityFrameworkCore.*" preserve="all"/>
+    </assembly>
+    <assembly fullname="Microsoft.EntityFrameworkCore.Relational">
+        <type fullname="Microsoft.EntityFrameworkCore.*" preserve="all"/>
+    </assembly>
+    <assembly fullname="Microsoft.EntityFrameworkCore.Design">
+        <type fullname="Microsoft.EntityFrameworkCore.*" preserve="all"/>
+    </assembly>
+    <assembly fullname="Microsoft.EntityFrameworkCore.Analyzers">
+        <type fullname="Microsoft.EntityFrameworkCore.*" preserve="all"/>
+    </assembly>
+    <assembly fullname="Assembly-CSharp">
+        <type fullname="*" preserve="all"/>
+    </assembly>
+</linker>
